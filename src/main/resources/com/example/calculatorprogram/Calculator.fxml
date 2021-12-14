@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="291.0" prefWidth="202.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculatorprogram.CalculatorController">
+   <center>
+      <VBox alignment="CENTER" spacing="20.0">
+          <padding>
+              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+          </padding>
+         <TextField fx:id="textField1" />
+         <TextField fx:id="textField2" />
+      
+          <Label fx:id="answerText" prefHeight="19.0" prefWidth="155.0" textFill="#b54040" />
+          <Button fx:id="calculateButton" onAction="#onCalculateButtonClick" text="Calculate Answer" />
+         <Button fx:id="openGifButton" mnemonicParsing="false" onAction="#onDistractionButtonClick" text="Quick Distraction" />
+      </VBox>
+   </center>
+   <top>
+      <Label alignment="CENTER" prefHeight="31.0" prefWidth="113.0" text="My Calculator" textAlignment="CENTER" textFill="#2e8a77" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </top>
+</BorderPane>

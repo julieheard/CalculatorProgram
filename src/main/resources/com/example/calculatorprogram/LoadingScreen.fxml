@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculatorprogram.LoadingScreen">
+   <center>
+      <ImageView fitHeight="357.0" fitWidth="481.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@loading-screen.gif" />
+         </image></ImageView>
+   </center>
+   <bottom>
+      <Button fx:id="calculateButton" mnemonicParsing="false" onAction="#calculatorButton" text="Calculator" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
