@@ -12,6 +12,6 @@
          </image></ImageView>
    </center>
    <bottom>
-      <Button fx:id="calculateButton" mnemonicParsing="false" onAction="#backToCalculator" text="Back to Calculator" BorderPane.alignment="CENTER" />
+      <Button fx:id="calculateButton" mnemonicParsing="false" onAction="#calculatorButton" text="Calculator" BorderPane.alignment="CENTER" />
    </bottom>
 </BorderPane>

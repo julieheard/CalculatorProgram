@@ -16,7 +16,7 @@ public class LoadingScreen {
     protected void calculatorButton(ActionEvent event){
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(CalculatorApplication.class.getResource("Calculator.fxml"));
-            Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+            Scene scene = new Scene(fxmlLoader.load(), 400, 400);
             Stage stage = new Stage();
             stage.setTitle("Calculator");
             stage.setScene(scene);

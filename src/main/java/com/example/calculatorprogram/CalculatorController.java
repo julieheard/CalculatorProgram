@@ -32,7 +32,7 @@ public class CalculatorController {
     protected void onDistractionButtonClick(ActionEvent event) {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(CalculatorApplication.class.getResource("LoadingScreen.fxml"));
-            Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+            Scene scene = new Scene(fxmlLoader.load(), 400, 400);
             Stage stage = new Stage();
             stage.setTitle("Loading Screen");
             stage.setScene(scene);
